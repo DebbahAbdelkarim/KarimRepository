@@ -9,5 +9,4 @@ public class WorkoutLoggingAppApplication {
     public static void main(String[] args) {
         SpringApplication.run(WorkoutLoggingAppApplication.class, args);
     }
-
 }

@@ -1,6 +1,6 @@
 package com.karimcoding.workoutloggingapp.view;
 
 
-public class View {
+public class MainPage {
     
 }
