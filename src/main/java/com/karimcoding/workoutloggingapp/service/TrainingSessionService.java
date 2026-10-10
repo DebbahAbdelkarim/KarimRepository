@@ -1,4 +1,4 @@
 package com.karimcoding.workoutloggingapp.service;
 
-public class AddExerciseService {
+public class TrainingSessionService {
 }
