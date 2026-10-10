@@ -1,4 +1,7 @@
 package com.karimcoding.workoutloggingapp.service;
 
-public class AddExerciseService {
+import org.springframework.stereotype.Service;
+
+@Service
+public class AddExerciseService{
 }
