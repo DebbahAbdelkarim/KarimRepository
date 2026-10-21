@@ -1,0 +1,62 @@
+body {
+  font: 30;
+  color: green;
+}
+
+.home-page-header {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.side-bar {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Base resets to clear default browser spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Pushes logo to left, links to right */
+  align-items: center; /* Vertically centers the text */
+  background-color: #002700;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Navigation Links List */
+.nav-links {
+  display: flex;
+  gap: 1.5rem; /* Adds uniform spacing between links */
+  list-style: none; /* Removes default bullet points */
+}
+
+/* Individual Anchor Links */
+.nav-links a {
+  text-decoration: none; /* Removes the default underline */
+  color: #ccc;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+/* Hover State */
+.nav-links a:hover {
+  color: #fff; /* Brightens link color when hovered */
+}/*# sourceMappingURL=stylesheet.css.map */
