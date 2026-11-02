@@ -1,8 +1,3 @@
-import com.karimcoding.workoutloggingapp.beans.Exercise;
-import org.springframework.ui.Model;
-
-import java.sql.SQLOutput;
-
 void main() {
 
     record DogRecord (String DogName, int DogNumber){}

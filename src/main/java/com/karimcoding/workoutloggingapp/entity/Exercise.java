@@ -1,4 +1,4 @@
-package com.karimcoding.workoutloggingapp.beans;
+package com.karimcoding.workoutloggingapp.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -7,7 +7,8 @@ import java.util.List;
 
 @Data
 @Entity
-public class Exercise {
+public class Exercise extends Activity{
+
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -1,4 +1,4 @@
-package com.karimcoding.workoutloggingapp.beans;
+package com.karimcoding.workoutloggingapp.entity;
 
 import lombok.Getter;
 import lombok.Setter;
